@@ -9,12 +9,6 @@
   "scripts": {
     "dev": "nodemon src/server.ts"
   },
-  "devDependencies": {
-    "@types/express": "^5.0.3",
-    "@types/node": "^24.5.2",
-    "nodemon": "^3.1.10",
-    "typescript": "^5.9.2"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
@@ -22,5 +16,11 @@
     "mongoose": "^8.18.3",
     "tsx": "^4.20.5",
     "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
   }
 }

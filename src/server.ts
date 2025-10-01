@@ -3,7 +3,7 @@ import app from "./app.js";
 import { NODE_ENV, PORT } from "./constants/env.js";
 import connectDB from "./config/db.js";
 
-async function startApplication() {
+async function start() {
   await connectDB();
 
   app.listen(PORT, () => {
@@ -11,4 +11,4 @@ async function startApplication() {
   });
 }
 
-startApplication();
+start();
